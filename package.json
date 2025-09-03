@@ -8,6 +8,6 @@
   },
   "scripts": {
     "build": "npm --prefix client install && npm --prefix client run build",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run client-build"
   }
 }

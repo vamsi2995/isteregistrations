@@ -36,7 +36,7 @@ const ViewRegistrations = () => {
 
     const fetchRegistrations = async () => {
         try {
-            const response = await axios.get('http://localhost:4000/members');
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}/members`);
             setRegistrations(response.data.members);
         } catch (error) {
             console.error('Error fetching registrations:', error);
@@ -48,7 +48,7 @@ const ViewRegistrations = () => {
     const handleDelete = async (memId) => {
         if (!window.confirm('Are you sure you want to delete this Member?')) return;
         try {
-            await axios.delete(`http://localhost:4000/deleteMember/${memId}`);
+            await axios.delete(`${process.env.REACT_APP_API_URL}/deleteMember/${memId}`);
             setRegistrations(registrations.filter(reg => reg._id !== memId));
         } catch (error) {
             console.error('Error deleting registration:', error);

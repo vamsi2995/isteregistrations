@@ -3,6 +3,6 @@ require('dotenv').config();           // loads local .env for dev only (harmless
 const serverless = require('serverless-http');
 
 // require your exported app (adjust path if different)
-const app = require('../server/app');
+const app = require('../server/src/app');
 
 module.exports = serverless(app);

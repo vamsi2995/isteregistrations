@@ -56,7 +56,7 @@ const UpdateMember = ({member, onClose, onUpdate}) => {
 
         if (Object.keys(newErrors).length === 0) {
             try {
-                const response = await axios.put('http://localhost:4000/updateMember', formData);
+                const response = await axios.put(`${process.env.REACT_APP_API_URL}/updateMember`, formData);
                 setSuccessMessage(response.data.message || 'Member updated successfully!');
                 setErrorMessage('');
                 onUpdate();

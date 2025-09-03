@@ -19,5 +19,7 @@ app.use('/',router);
 // app.use(errorLogger);
 
 
-app.listen(4000);
-console.log("App listening in the port 4000");
+// app.listen(4000);
+// console.log("App listening in the port 4000");
+
+module.exports = app;

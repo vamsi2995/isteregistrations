@@ -7,7 +7,6 @@
     "serverless-http": "^4.0.0"
   },
   "scripts": {
-    "build": "npm --prefix client install && npm --prefix client run build",
-    "vercel-build": "npm run client-build"
+    "build": "npm --prefix client install && npm --prefix client run build"
   }
 }

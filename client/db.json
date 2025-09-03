@@ -1,0 +1,44 @@
+{
+  "registrations": [
+    {
+      "id": "6edb",
+      "name": "Vara Prasad",
+      "branch": "CSE",
+      "year": "4",
+      "mobile": "9618379199",
+      "mail": "akhvp585@gmail.com",
+      "amount": "300",
+      "paymentMode": "online"
+    },
+    {
+      "id": "c9ad",
+      "name": "Vara Prasad",
+      "branch": "CSE",
+      "year": "4",
+      "mobile": "9618379199",
+      "mail": "akhvp585@gmail.com",
+      "amount": "300",
+      "paymentMode": "online"
+    },
+    {
+      "id": "9740",
+      "name": "Vara Prasad",
+      "branch": "CSE",
+      "year": "4",
+      "mobile": "9618379199",
+      "mail": "akhvp585@gmail.com",
+      "amount": "300",
+      "paymentMode": "cash"
+    },
+    {
+      "id": "0a2e",
+      "name": "Vara Prasad",
+      "branch": "CSE",
+      "year": "4",
+      "mobile": "9618379199",
+      "mail": "",
+      "amount": "300",
+      "paymentMode": "online"
+    }
+  ]
+}

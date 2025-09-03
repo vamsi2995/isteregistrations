@@ -21,5 +21,9 @@ app.use('/',router);
 
 // app.listen(4000);
 // console.log("App listening in the port 4000");
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
 module.exports = app;

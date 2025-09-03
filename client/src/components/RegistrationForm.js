@@ -64,7 +64,7 @@ const RegistrationForm = () => {
 
         if (Object.keys(newErrors).length === 0) {
             try {
-                const response = await axios.post('http://localhost:4000/register', formData);
+                const response = await axios.post(`${process.env.REACT_APP_API_URL}/register`,formData);
                 setSuccessMessage(response.data.message);
                 setErrorMessage('');
                 setFormData({
